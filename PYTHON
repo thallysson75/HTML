@@ -1,0 +1,113 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNUXhYKREwT1iUSGtRgThX6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/thallysson75/HTML/blob/main/PYTHON\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OkNgY3bq2iMf",
+        "outputId": "a117f2f3-7601-40f0-a6e9-69fbf7a8d44b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                         RELATORIO                          \n",
+            "============================================================\n"
+          ]
+        }
+      ],
+      "source": [
+        "#procedimento com parametros\n",
+        "def cabecalho(titulo,largura=30):\n",
+        "  print(titulo.center(largura))\n",
+        "  print(\"=\"*largura)\n",
+        "cabecalho(\"RELATORIO\",60)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def media_aluno(nota1, nota2, media = 7):\n",
+        "  if(nota1 + nota2) / 2 >= media:\n",
+        "    return(\"Aprovado\")\n",
+        "  else:\n",
+        "    return(\"Reprovado\")\n",
+        "n1 = float(input(\"Digite a primeira nota:\"))\n",
+        "n2 = float(input(\"Digite a segunda nota:\"))\n",
+        "media = float(input(\"Qual a média para aprovação\"))\n",
+        "print(media_aluno(n1,n2,media))\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kyvi8CjuDLMe",
+        "outputId": "8a2bec6f-1ef3-44f9-f8e9-b0c91640209e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a primeira nota:10\n",
+            "Digite a segunda nota:5\n",
+            "Qual a média para aprovação7\n",
+            "Aprovado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Programa saldo\n",
+        "def sacar(valor, saldo):\n",
+        "  return(saldo - valor)\n",
+        "def depositar(valor, saldo):\n",
+        "  return(saldo + valor)\n",
+        "  saldo = 0\n",
+        "  valor = float(input(\"Digite o valor:\"))\n",
+        "  while valor\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "1zDIwdicNTpT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
